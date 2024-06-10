@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build"
-  publish = "build"  # Corregir la ubicación de la comilla
+  command = "quasar build"
+  publish = "dist"  # Directorio de construcción de Quasar
 
 [[redirects]]
   from = "/*"
